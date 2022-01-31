@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0457E04F27A855360053EFE9 /* F.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0457E04827A855350053EFE9 /* F.wav */; };
+		0457E05027A855360053EFE9 /* D.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0457E04927A855350053EFE9 /* D.wav */; };
+		0457E05127A855360053EFE9 /* C.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0457E04A27A855360053EFE9 /* C.wav */; };
+		0457E05227A855360053EFE9 /* A.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0457E04B27A855360053EFE9 /* A.wav */; };
+		0457E05327A855360053EFE9 /* E.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0457E04C27A855360053EFE9 /* E.wav */; };
+		0457E05427A855360053EFE9 /* G.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0457E04D27A855360053EFE9 /* G.wav */; };
+		0457E05527A855360053EFE9 /* B.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0457E04E27A855360053EFE9 /* B.wav */; };
 		04C9DCBD27A721600082A670 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C9DCBC27A721600082A670 /* AppDelegate.swift */; };
 		04C9DCBF27A721600082A670 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C9DCBE27A721600082A670 /* SceneDelegate.swift */; };
 		04C9DCC127A721600082A670 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C9DCC027A721600082A670 /* ViewController.swift */; };
@@ -16,6 +23,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0457E04827A855350053EFE9 /* F.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = F.wav; sourceTree = "<group>"; };
+		0457E04927A855350053EFE9 /* D.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = D.wav; sourceTree = "<group>"; };
+		0457E04A27A855360053EFE9 /* C.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = C.wav; sourceTree = "<group>"; };
+		0457E04B27A855360053EFE9 /* A.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = A.wav; sourceTree = "<group>"; };
+		0457E04C27A855360053EFE9 /* E.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = E.wav; sourceTree = "<group>"; };
+		0457E04D27A855360053EFE9 /* G.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = G.wav; sourceTree = "<group>"; };
+		0457E04E27A855360053EFE9 /* B.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = B.wav; sourceTree = "<group>"; };
 		04C9DCB927A721600082A670 /* Xylophone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Xylophone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C9DCBC27A721600082A670 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04C9DCBE27A721600082A670 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +51,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0457E04727A854F80053EFE9 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				0457E04B27A855360053EFE9 /* A.wav */,
+				0457E04E27A855360053EFE9 /* B.wav */,
+				0457E04A27A855360053EFE9 /* C.wav */,
+				0457E04927A855350053EFE9 /* D.wav */,
+				0457E04C27A855360053EFE9 /* E.wav */,
+				0457E04827A855350053EFE9 /* F.wav */,
+				0457E04D27A855360053EFE9 /* G.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		04C9DCB027A721600082A670 = {
 			isa = PBXGroup;
 			children = (
@@ -63,6 +91,7 @@
 				04C9DCC527A721610082A670 /* Assets.xcassets */,
 				04C9DCC727A721610082A670 /* LaunchScreen.storyboard */,
 				04C9DCCA27A721610082A670 /* Info.plist */,
+				0457E04727A854F80053EFE9 /* Sounds */,
 			);
 			path = Xylophone;
 			sourceTree = "<group>";
@@ -125,9 +154,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0457E05427A855360053EFE9 /* G.wav in Resources */,
+				0457E05527A855360053EFE9 /* B.wav in Resources */,
+				0457E05227A855360053EFE9 /* A.wav in Resources */,
+				0457E05127A855360053EFE9 /* C.wav in Resources */,
 				04C9DCC927A721610082A670 /* LaunchScreen.storyboard in Resources */,
 				04C9DCC627A721610082A670 /* Assets.xcassets in Resources */,
+				0457E05027A855360053EFE9 /* D.wav in Resources */,
 				04C9DCC427A721600082A670 /* Main.storyboard in Resources */,
+				0457E05327A855360053EFE9 /* E.wav in Resources */,
+				0457E04F27A855360053EFE9 /* F.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
